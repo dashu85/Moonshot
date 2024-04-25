@@ -30,7 +30,7 @@ struct Address: Codable {
     let city: String
 }
 
-struct ContentView: View {
+struct Examples: View {
     // GridView
     let layout = [
         GridItem(.adaptive(minimum: 80, maximum: 120)),
@@ -109,5 +109,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Examples()
 }
