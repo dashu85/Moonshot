@@ -30,6 +30,9 @@ struct ListLayoutView: View {
                     }
                 }
             }
+            .listRowBackground(Color.darkBackground)
         }
+        .listStyle(.plain)
+        .background(Color.darkBackground)
     }
 }
